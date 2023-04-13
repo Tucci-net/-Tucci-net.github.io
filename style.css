@@ -1,14 +1,30 @@
-body {
-    background: #1a1c81;
-
-}
-
-img{
-    width: 50%;
-    
-}
-
 h1 {
-    color:aliceblue;
+    color:rgb(0, 0, 0);
     text-align: center;
 }
+body{
+    display:grid;
+    height:100vh;
+    place-items:center;
+    background: #1a1c81;
+ }
+ main{
+  background:orange;
+  width:400px;
+  padding:15px;
+  border-radius:12px;
+ }
+ 
+ img{
+    border-radius:50%;
+    width: 50%;
+
+ }
+ div{
+    text-align:center;
+ }
+ main:hover{
+    background:darkorange;
+    box-shadow:0px 15px 35px -5px rgba(40,59,80,0.98);
+ transform: scale(1.15);
+ }
